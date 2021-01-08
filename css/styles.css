@@ -63,6 +63,10 @@ a:hover {
     position: absolute;
 }
 
+#aboutme {
+    font-size: large;
+}
+
 #projhead {
     text-align: center;
     font-size: xx-large;
@@ -86,7 +90,7 @@ a:hover {
 
 #card-img {
     height: auto;
-    max-width: 20%;
+    max-width: 25%;
     max-height: 400px;
     overflow: hidden;
     position: relative;
