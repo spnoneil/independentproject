@@ -3,6 +3,22 @@ body {
     font-weight: bolder;
 }
 
+a {
+    color: linen;
+}
+
+a:hover {
+    color: limegreen;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+a:active {
+    color: crimson;
+}
+
 #bg {
     position: fixed;
     height: 100%;
@@ -27,7 +43,13 @@ body {
 .jumbotron h1 {
     text-align: center;
     margin: 1em;
-    font-family: Tahoma, sans-serif
+    font-family: Tahoma, sans-serif;
+    padding-bottom: 5%;
+}
+
+#headname {
+    text-decoration: underline;
+    font-size: larger;
 }
 
 #jumbobg {
@@ -37,8 +59,15 @@ body {
     position: absolute;
 }
 
+#projhead {
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
 .card,
-.list-group-item {
+.list-group-item,
+#projhead {
     color: chartreuse;
     background-color: rgb(9, 24, 20);
 }
@@ -63,9 +92,11 @@ body {
     text-align: center;
     height: 40px;
     width: 100%;
-    background-color: rgb(111, 111, 111);
+    background-color: rgb(38, 85, 85);
     position: fixed;
     bottom: 0;
+    left: 0;
+    ;
 }
 
 #bottom {
