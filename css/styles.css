@@ -4,6 +4,16 @@
     font-family: Tahoma, sans-serif
 }
 
+.card-img-top {
+    height: auto;
+    width: 20%;
+    overflow: hidden;
+}
+
+#sidebar {
+    float: left;
+}
+
 .footer {
     text-align: center;
     height: 50px;
