@@ -9,14 +9,14 @@ a {
     cursor: crosshair;
 }
 
-a:hover {
-    transition: all .5s linear 0;
-    color: limegreen;
-    text-decoration: none;
+a:link {
+    transition: .75s;
+    color: whitesmoke;
 }
 
-a:visited {
-    color: chartreuse;
+a:hover {
+    color: rgb(58, 255, 58);
+    text-decoration: none;
 }
 
 #bg {
