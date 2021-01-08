@@ -3,18 +3,33 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    filter: blur(3px);
+    filter: blur(4px);
 }
 
 .jumbotron {
     color: greenyellow;
-    background-color: darkslategrey;
+    background-color: rgb(38, 85, 85);
+    position: relative;
+    overflow: hidden;
+    z-index: 99;
+    border-style: groove;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 .jumbotron h1 {
     text-align: center;
     margin: 1em;
     font-family: Tahoma, sans-serif
+}
+
+#jumbobg {
+    background-size: cover;
+    filter: blur(25px);
+    z-index: -1;
+    position: absolute;
 }
 
 .card,
@@ -25,6 +40,7 @@
 
 .card {
     margin: 15px;
+    border: ivory groove 2px;
 }
 
 #card-img {
@@ -35,6 +51,7 @@
     float: left;
     margin: 15px;
     border-radius: 50%;
+    border: groove;
 }
 
 .footer {
@@ -44,4 +61,8 @@
     background-color: rgb(111, 111, 111);
     position: fixed;
     bottom: 0;
+}
+
+#bottom {
+    margin-bottom: 10%;
 }
