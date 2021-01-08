@@ -78,6 +78,7 @@ a:active {
     margin: 15px;
     border: ivory groove 2px;
     border-radius: 25px;
+    text-align: center;
 }
 
 #card-img {
