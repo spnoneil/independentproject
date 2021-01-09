@@ -64,7 +64,7 @@ a:hover {
 }
 
 #aboutme {
-    font-size: large;
+    font-size: xx-large;
 }
 
 #projhead {
@@ -102,6 +102,7 @@ a:hover {
 
 .footer {
     text-align: center;
+    font-size: large;
     color: greenyellow;
     height: 40px;
     width: 100%;

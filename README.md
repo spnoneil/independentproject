@@ -17,7 +17,8 @@ _A simple landing page to present myself to my future world of coding_
 
 ## Known Bugs
 
-_No known bugs_
+* _Tested in Google Chrome, Microsoft Edge, and Vivaldi_
+* _No known bugs_
 
 ## Support and contact details
 
