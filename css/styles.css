@@ -1,117 +1,122 @@
 body {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    font-weight: bolder;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: bolder;
 }
 
 a {
-    color: linen;
-    cursor: crosshair;
+  color: linen;
+  cursor: crosshair;
 }
 
 a:link {
-    transition: .75s;
-    color: whitesmoke;
+  transition: .75s;
+  color: whitesmoke;
 }
 
 a:hover {
-    color: rgb(58, 255, 58);
-    text-decoration: none;
+  color: rgb(58, 255, 58);
+  text-decoration: none;
 }
 
 #bg {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    filter: blur(4px);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  filter: blur(4px);
 }
 
 .container-fluid {
-    padding-top: 2%;
+  padding-top: 2%;
 }
 
 .jumbotron {
-    color: greenyellow;
-    background-color: rgb(38, 85, 85);
-    position: relative;
-    overflow: hidden;
-    z-index: 99;
-    border-style: groove;
-    border-radius: 20% 20% 50% 50%;
-    box-shadow: 5px 5px 5px 2px rgb(107, 101, 101);
-    box-shadow: inset 0 0 22px 2px;
+  color: greenyellow;
+  background-color: rgb(38, 85, 85);
+  position: relative;
+  overflow: hidden;
+  z-index: 99;
+  border-style: groove;
+  border-radius: 20% 20% 50% 50%;
+  box-shadow: 5px 5px 5px 2px rgb(107, 101, 101);
+  box-shadow: inset 0 0 22px 2px;
 }
 
 .jumbotron h1 {
-    text-align: center;
-    margin: 1em;
-    font-family: Tahoma, sans-serif;
+  text-align: center;
+  margin: 1em;
+  font-family: Tahoma, sans-serif;
 }
 
 #headname {
-    text-decoration: underline;
-    font-size: larger;
+  text-decoration: underline;
+  font-size: larger;
 }
 
 #jumbobg {
-    height: 100%;
-    width: 100%;
-    right: 0;
-    filter: blur(20px);
-    z-index: -1;
-    position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  filter: blur(20px);
+  z-index: -1;
+  position: absolute;
 }
 
 #aboutme {
-    font-size: xx-large;
+  font-size: xx-large;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 #projhead {
-    text-align: center;
-    font-size: xx-large;
-    text-decoration: underline;
+  text-align: center;
+  font-size: xx-large;
+  text-decoration: underline;
+  color: chartreuse;
 }
 
 .card,
-.list-group-item,
-#projhead {
-    color: chartreuse;
-    background-color: rgb(9, 24, 20);
+.list-group-item {
+  color: chartreuse;
+  background-color: rgb(9, 24, 20);
 }
 
 .card {
-    margin: 15px;
-    border: ivory groove 2px;
-    border-radius: 25px;
-    text-align: center;
-    box-shadow: 5px 5px 5px 2px rgb(88, 81, 81);
+  margin: 15px;
+  border: ivory groove 2px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 5px 5px 5px 2px rgb(88, 81, 81);
 }
 
 #card-img {
-    height: auto;
-    max-width: 25%;
-    max-height: 400px;
-    overflow: hidden;
-    position: relative;
-    float: left;
-    margin: 15px;
-    border-radius: 50%;
-    border: groove;
+  height: auto;
+  max-width: 25%;
+  max-height: 400px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin: 15px;
+  border-radius: 50%;
+  border: groove;
 }
 
 .footer {
-    text-align: center;
-    font-size: large;
-    color: greenyellow;
-    height: 40px;
-    width: 100%;
-    background-color: rgb(38, 85, 85);
-    position: fixed;
-    bottom: 0;
-    left: 0;
+  text-align: center;
+  font-size: large;
+  color: greenyellow;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(38, 85, 85);
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 #bottom {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
